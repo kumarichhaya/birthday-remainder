@@ -1,9 +1,10 @@
 import "./App.css";
+import Board from "./components/board";
 
 function App() {
   return (
     <div className="App">
-      <h1>Birthday Reminder</h1>
+      <Board> </Board>
     </div>
   );
 }
