@@ -27,8 +27,9 @@ body {
 .text-light {
   color: var(--clolor-light);
 }
-ul {
+ul li {
   list-style-type: none;
+  padding: 1em;
 }
 ul > li .flex {
   color: var(--color-dark);
@@ -39,7 +40,17 @@ ul > li .flex {
   margin-top: 1em;
   text-align: left;
   background-color: var(--active);
-  padding: 0.8em 0;
+  padding: 0.8em;
   border-radius: 10px;
   box-shadow: 1px 10px 20px #858b9259;
+  max-width: 600px;
+  margin: auto;
+}
+
+ul > li img {
+  border-radius: 50%;
+  width: 20%;
+}
+.upcoming {
+  margin-top: 1em;
 }
